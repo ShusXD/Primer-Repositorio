@@ -130,6 +130,7 @@ footer{
       <img src="IMG/Producto.png" alt="Logo de TechBlog">
       <h1>Paginita</h1>
     </div>
+    <div class="menu-toggle">☰ Menú</div>
     <nav>
       <ul>
         <li><a href="#inicio">Inicio</a></li>
@@ -248,6 +249,14 @@ footer{
     <p>&copy; 2025 TechBlog. Todos los derechos reservados.</p>
   </div>
 </footer>
+
+<script>
+const toggle=document.querySelector('.menu-toggle');
+const menu=document.querySelector('nav ul');
+toggle.addEventListener('click',()=>menu.classList.toggle('show'));
+</script>
+</body>
+</html>
 
 </body>
 </html>
