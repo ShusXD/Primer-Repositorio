@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Estilos.css">
+    <title>Paginita - Últimas Tendencias en Tecnología</title>
+    <meta name="description" content="Blog sobre tecnología, desarrollo web y las últimas tendencias del sector">
+
+</head>
+
+<style>
+        H1{
+        color: #000000;
+        margin-left: 300px;
+    }
+
+    * { 
+        margin: 0; padding: 0; 
+        box-sizing: border-box; 
+        border-radius: 20px;
+    }
+
+    body { 
+        text-align: center;
+        font-family: 'Segoe UI', sans-serif; 
+        line-height: 1.6; 
+    }
+
+    .container { 
+        max-width: 1200px; margin: 0 auto; 
+        padding: 0 20px; 
+    }
+
+    header { 
+        background: #625F73; 
+        color: white;
+        padding: 1rem 0; 
+        border-radius: 10px;
+    }
+
+    .header-content {
+        display: flex; 
+        justify-content: space-between; 
+        align-items: center; 
+        position: fixed; 
+        background: #625F73; 
+        padding: 5px; 
+        width: 101%; 
+        margin-left: -20%; 
+        margin-top: -1.5%;
+        }
+
+    nav ul { 
+        display: flex; 
+        list-style: none; 
+    }
+
+
+    nav li { 
+        margin-left: 20px; 
+    }
+
+    nav a { color: white; 
+        text-decoration: none; 
+    }
+
+    main { display: grid; 
+        grid-template-columns: 2fr 1fr; gap: 30px; 
+        margin: 30px 0; 
+    }
+
+    article { 
+        background: white; 
+        margin-bottom: 30px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+
+    .article-meta { 
+        color: #ffffff; 
+        font-size: 0.9em; margin: 10px 0; 
+    }
+
+    aside { 
+        background: #f8f9fa; 
+        padding: 20px; 
+        background-color: #625F73;
+        border-radius: 50px;
+    }
+
+    footer { background: #625F73; 
+        color: white; 
+        text-align: center; 
+        padding: 20px 0; 
+        border-radius: 20px;
+    }
+
+    .search-form { 
+        margin: 20px 0; 
+    }
+
+    .tags { 
+        margin: 10px 0; 
+    }
+
+    .tag { 
+        background: #000000; 
+        color: white; 
+        padding: 3px 8px; margin: 2px; 
+        font-size: 0.8em; 
+    }
+
+
+</style>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <h1>Paginita</h1>
+                <img src="IMG/Producto.png" alt="Logo de TechBlog" style="height: 150px; margin-left: -700px; border-radius: 10px;">
+                <nav>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#desarrollo">Desarrollo</a></li>
+                        <li><a href="#diseño">Diseño</a></li>
+                        <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                        <li><a href="#descargar">Descargar</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <BR></BR>
+        <BR></BR>
+        <main>
+            <section id="inicio">
+                <article>
+                    <header>
+                        <h2><a href="#post1">Los Frameworks CSS más Populares en 2024</a></h2>
+                        <div class="article-meta">
+                            Por <strong>Pepe García</strong> | 
+                            <time datetime="2024-01-10">10 de enero, 2025</time> | 
+                            <a href="#categoria-css">CSS</a>
+                        </div>
+                    </header>
+                    <img src="IMG/framewor.png" alt="Logos de frameworks CSS" style="width: 100%; height: 200px; object-fit: cover;">
+                    <div style="padding: 20px;">
+                        <p>En este artículo exploramos los frameworks CSS más utilizados en 2024, incluyendo Bootstrap, Tailwind CSS, y las nuevas alternativas que están ganando popularidad entre los desarrolladores.</p>
+                        <p>Los frameworks CSS han revolucionado la forma en que desarrollamos interfaces web, permitiendo crear diseños responsivos y modernos de manera más eficiente...</p>
+                        <div class="tags">
+                            <span class="tag">CSS</span>
+                            <span class="tag">Frameworks</span>
+                            <span class="tag">Bootstrap</span>
+                            <span class="tag">Tailwind</span>
+                        </div>
+                        <a href="#leer-mas">Leer más →</a>
+                    </div>
+                </article>
+
+                <article>
+                    <header>
+                        <h2><a href="#post2">JavaScript ES2024: Nuevas Características</a></h2>
+                        <div class="article-meta">
+                            Por <strong>Manolo Rodríguez</strong> | 
+                            <time datetime="2024-01-08">8 de enero, 2025</time> | 
+                            <a href="#categoria-js">JavaScript</a>
+                        </div>
+                    </header>
+                    <img src="IMG/java.jpg" alt="Logo de JavaScript con año 2024" style="width: 100%; height: 200px; object-fit: cover;">
+                    <div style="padding: 20px;">
+                        <p>JavaScript continúa evolucionando y ES2024 trae consigo características emocionantes que mejorarán significativamente la experiencia de desarrollo.</p>
+                        <p>Entre las nuevas funcionalidades destacan las mejoras en el manejo de arrays, nuevos métodos para objetos, y optimizaciones en el rendimiento...</p>
+                        <div class="tags">
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">ES2024</span>
+                            <span class="tag">Programación</span>
+                        </div>
+                        <a href="#leer-mas">Leer más →</a>
+                    </div>
+                </article>
+
+                <article>
+                    <header>
+                        <h2><a href="#post3">Diseño Web Responsivo: Mejores Prácticas</a></h2>
+                        <div class="article-meta">
+                            Por <strong>Ana Lisa Melano</strong> | 
+                            <time datetime="2024-01-05">5 de enero, 2025</time> | 
+                            <a href="#categoria-diseño">Diseño</a>
+                        </div>
+                    </header>
+                    <img src="IMG/responsivo.png" alt="Dispositivos mostrando diseño responsivo" style="width: 100%; height: 200px; object-fit: cover;">
+                    <div style="padding: 20px;">
+                        <p>El diseño responsivo ya no es una opción, sino una necesidad. Aprende las técnicas más actuales para crear sitios web que funcionen perfectamente en cualquier dispositivo.</p>
+                        <p>Desde media queries hasta CSS Grid y Flexbox, cubrimos todas las herramientas necesarias para el desarrollo moderno...</p>
+                        <div class="tags">
+                            <span class="tag">Diseño</span>
+                            <span class="tag">Responsivo</span>
+                            <span class="tag">CSS Grid</span>
+                            <span class="tag">Flexbox</span>
+                        </div>
+                        <a href="#leer-mas">Leer más →</a>
+                    </div>
+                </article>
+            </section>
+
+            <aside>
+                <section id="desarrollo">
+                    <h3>Buscar</h3>
+                    <form class="search-form">
+                        <input type="search" placeholder="Buscar artículos..." style="width: 100%; padding: 8px;">
+                        <button type="submit" style="width: 100%; padding: 8px; margin-top: 5px;">Buscar</button>
+                    </form>
+                </section>
+
+                <section>
+                    <h3>Categorías</h3>
+                    <ul style="list-style: none;">
+                        <li><a href="https://paginasweb.agency/?gad_source=1&gad_campaignid=22904101628&gbraid=0AAAABAptIx4VsvVBwsJzWuiymuELTlKLp&gclid=Cj0KCQjw5onGBhDeARIsAFK6QJZZY6Nic-EdZLn2CcCA0rwjJrl39rQTSs9V9sWW7-RhcKSWm33CgaIaAlcTEALw_wcB">Desarrollo Web</a></li>
+                        <li><a href="https://developer.mozilla.org/es/docs/Web/JavaScript">JavaScript</a></li>
+                        <li><a href="https://aulacm.com/codigos-web-css-y-html-wordpress/">CSS</a></li>
+                        <li><a href="https://medium.com/@saragummy/las-10-mejores-webs-de-inspiraci%C3%B3n-para-el-dise%C3%B1o-ui-ux-85e83b663630">Diseño UX/UI</a></li>
+                        <li><a href="https://neubox.com/blog/programas-para-crear-paginas-web/?srsltid=AfmBOooH6iZsorzZvy3wZSZQY-3e3e-iJyjr5FYeqJroDUqFKtYzJXfp">Herramientas</a></li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h3>Artículos Populares</h3>
+                    <ul style="list-style: none;">
+                        <li><a href="https://elementor.com/blog/es/propiedad-css-flex-una-guia-completa-sobre-flexbox-en-css/">Guia completa de flexbox</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=L0VHJa0Bmi4">10 Trucos de javaScrip</a></li>
+                        <li><a href="https://platzi.com/blog/flexbox-vs-css-grid-cual-es-la-diferencia/">CSS grid vs flexbox</a></li>
+                    </ul>
+                </section>
+
+                <section id="sobre-nosotros">
+                    <h3>Newsletter</h3>
+                    <p>Suscríbete para recibir los últimos artículos:</p>
+                    <form style="margin-top: 10px;">
+                        <input type="email" placeholder="tu@email.com" style="width: 100%; padding: 8px; margin-bottom: 5px;">
+                        <button type="submit" style="width: 100%; padding: 8px;">Suscribirse</button>
+                    </form>
+                </section>
+
+                <section id ="diseño">
+                    <h3>Síguenos</h3>
+                    <ul style="list-style: none;">
+                        <li><a href="https://twitter.com/techblog">Twitter</a></li>
+                        <li><a href="https://facebook.com/techblog">Facebook</a></li>
+                        <li><a href="https://linkedin.com/company/techblog">LinkedIn</a></li>
+                        <li><a href="https://github.com/techblog">GitHub</a></li>
+                    </ul>
+                </section">
+            </aside>
+        </main>
+    </div>
+
+    <footer id ="contacto">
+        <div class="container">
+            <p>&copy; 2025 TechBlog. Todos los derechos reservados.</p>
+            <p>Síguenos en nuestras redes sociales para más contenido</p>
+        </div>
+    </footer>
+</body>
+</html>
